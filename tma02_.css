@@ -1,0 +1,120 @@
+body {
+	background-color: #d7f2f6;
+	font-family: Helvetica, Arial, Sans-Serif;
+}
+table, th, td {
+    border: 1px solid black;
+    background-color: powderblue; 
+}
+
+footer {
+	background-color: lightblue;
+	border:2px solid #456879;
+	border-radius:10px;
+	padding: 15px 25px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+label {
+display: inline-block;
+width: 20%;
+}
+
+.mytextarea {
+	background-color:  #F6D7F2;
+	border:2px solid #456879;
+	border-radius:10px;
+	padding: 15px 25px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+.flowers {
+	background-color:  #F6D7F2;
+	border:2px solid #456879;
+	border-radius:10px;
+	padding: 15px 25px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+			
+input {
+	display: inline-block;
+	background-color:  #F2F6D7;
+    color: black;
+    
+}
+input[type=text] {
+	background-color: #FFFFE2;
+	padding: 15px 25px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+	background-color:  #F6D7F2;
+}
+input[type=submit] {
+	background-color: #96D09E;
+}
+
+input[type=radio] {
+	background-color: #96D09E;
+	height: 50px;
+    width: 50px;
+}
+input[type="checkbox"]:not(:checked) {
+    height: 50px;
+    width: 50px;
+    color: #96D09E;
+}
+
+input:checked {
+    height: 50px;
+    width: 50px;
+    color: #96D09E;
+}
+
+.delete, #delete{
+float: right;
+border: 1px solid black;
+    background-color: red;
+    width: 25%;
+
+}
+
+#asection {
+display: none;
+}
+#bsection {
+display: none;
+}
+#csection, #dsection {
+display: none;
+}
+#sectiona:checked + #asection {
+display: block;
+}
+#sectionb:checked + #bsection {
+display: block;
+}
+#sectionc:checked + #csection {
+display: block;
+}
+#sectiond:checked + #dsection {
+display: block;
+}
+.report {
+display: none;
+background: white; 
+line-height: 1.7em;
+} 
+#reporta:checked ~ .report {
+display: block;
+}
+.showhide { /*button style */
+display: inline-block;
+background: #FFFFC2; 
+}
+.warn {
+background: #FFFFC2;
+}
